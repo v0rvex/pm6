@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Какой язык программирования называют 'языком веба'?",
+    "answer": "JavaScript",
+    "wrong_answers": ["Java", "Python", "C++"]
+  },
+  {
+    "question": "Что означает аббревиатура HTML?",
+    "answer": "HyperText Markup Language",
+    "wrong_answers": ["HighText Machine Language", "HyperLoop Machine Learning", "Home Tool Markup Language"]
+  },
+  {
+    "question": "Какой CSS-свойство используется для изменения цвета текста?",
+    "answer": "color",
+    "wrong_answers": ["text-color", "font-color", "background"]
+  },
+  {
+    "question": "В каком году был выпущен первый iPhone?",
+    "answer": "2007",
+    "wrong_answers": ["2005", "2009", "2010"]
+  },
+  {
+    "question": "Какой тег используется для создания ссылки?",
+    "answer": "<a>",
+    "wrong_answers": ["<link>", "<href>", "<url>"]
+  },
+  {
+    "question": "Что такое DOM в веб-разработке?",
+    "answer": "Document Object Model",
+    "wrong_answers": ["Data Object Model", "Digital Ordinance Model", "Desktop Orientation Mode"]
+  },
+  {
+    "question": "Какой метод используется для вывода сообщений в консоль JavaScript?",
+    "answer": "console.log()",
+    "wrong_answers": ["print()", "console.write()", "log.console()"]
+  },
+  {
+    "question": "Какой HTTP-статус код означает 'Страница не найдена'?",
+    "answer": "404",
+    "wrong_answers": ["200", "500", "301"]
+  },
+  {
+    "question": "Что означает CSS?",
+    "answer": "Cascading Style Sheets",
+    "wrong_answers": ["Computer Style Sheets", "Creative Style System", "Colorful Style Sheets"]
+  },
+  {
+    "question": "Какой оператор используется для сравнения значений и типов в JavaScript?",
+    "answer": "===",
+    "wrong_answers": ["==", "=", "!=="]
+  }
+]

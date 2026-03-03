@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM6 QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- АНИМИРОВАННЫЙ ФОН -->
+    <div class="background-container">
+        <div class="cyber-grid"></div>
+        <div class="geo-shape shape-1"></div>
+        <div class="geo-shape shape-2"></div>
+        <div class="geo-shape shape-3"></div>
+    </div>
+
+    <!-- Частицы (Поднимаются снизу) -->
+    <div class="particles-container"></div>
+
+    <!-- ПРОГРЕСС БАР (СВЕРХУ ЭКРАНА) -->
+    <div class="top-progress-container">
+        <div class="top-progress-wrapper">
+            <div class="progress-label">
+                <span>Прогресс викторины</span>
+                <span id="progress-text">0 / 0</span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quiz-container">
+        <!-- Вопрос -->
+        <div id="question-card" class="question-card">
+            Загрузка...
+        </div>
+
+        <!-- Варианты ответов -->
+        <div id="options-grid" class="options-grid">
+            <!-- Кнопки генерируются JS -->
+        </div>
+
+        <!-- Экран результатов -->
+        <div id="result-screen" class="result-screen">
+            <div class="result-icon">💎</div>
+            <h2 class="result-title">Викторина завершена!</h2>
+            <p class="result-score" id="final-score">Результат: 0</p>
+            <button class="restart-btn" id="restart-btn">Играть снова</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
